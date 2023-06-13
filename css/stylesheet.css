@@ -1,0 +1,41 @@
+* {
+    margin-bottom: 1em;
+}
+
+html {
+    font-size: 16px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    width: 50%;
+    margin: auto;
+    text-align: center;
+    color: rgb(40, 40, 40);
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    border: 3px solid black;
+    border-radius: 0.75rem;
+}
+
+#myStudentId {
+    font-size: 28px;
+}
+
+.customNumber {
+    font-size: 24px;
+}
+
+.custColor,
+.randColor {
+    cursor: pointer;
+    padding: 1em;
+}
+
+img {
+    height: auto;
+    width: 50%;
+    border-radius: 5rem;
+    border: 5px solid red;
+}
